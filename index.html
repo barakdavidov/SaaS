@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <title>SaaS</title>
+        <link rel="stylesheet" href="./css/styles.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    </head>
+    <body>
+            <div class="sidebar" id="sidebar">
+                <div class="logo-wrapper">
+                    <span class="logo">SaaS Kit</span>
+                </div>
+                <div class="profile-wrapper">
+                    <div class="profile-image">
+                        <img src="./images/profile.png" class="roundimage">
+                    </div>
+                    <div class="user-wrapper">
+                        <div class="username">Sierra Ferguson</div>
+                        <div class="useremail">s.ferguson@gmail.com</div>
+                    </div>
+                </div>
+                <div class="sidemenu">
+                    <div class="menu-item-wrapper">
+                        <img src="./images/dashboard.png" class="dashimages">
+                        <span class="menutext">Dashboard</span>
+                    </div>
+                    <div class="menu-item-wrapper">
+                        <img src="./images/tasks .png" class="dashimages">
+                        <span class="menutext">Tasks</span>
+                    </div>
+                    <div class="menu-item-wrapper">
+                        <img src="./images/email.png" class="dashimages">
+                        <span class="menutext">Email</span>
+                    </div>
+                    <div class="menu-item-wrapper">
+                        <img src="./images/contacts.png" class="dashimages">
+                        <span class="menutext">Contacts</span>
+                    </div>
+                    <div class="menu-item-wrapper">
+                        <img src="./images/chat.png" class="dashimages">
+                        <span class="menutext">Chat</span>
+                    </div>
+                    <div class="menu-item-wrapper">
+                        <img src="./images/deals.png" class="dashimages">
+                        <span class="menutext">Deals</span>
+                    </div>
+                </div>
+                <div class="settings-wrapper">
+                    <div class="settings-top-wrapper">
+                        <img src="./images/settings.png" class="dashimages">
+                        <span class="menutext">Settings</span>
+                    </div>
+                    <div class="settings-bottom-wrapper" onclick="closeNav()">
+                        <img src="./images/toggle.png" alt="toggle" class="dashimages toggleimage">
+                        <span class="menutext togglecolor">Toggle sidebar</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="searchbar">
+                    <div class="leftsearch">
+                        <img src="images/search.png" alt="search" class="searchimage">
+                        <input class="global-search" placeholder="Global Search"></span>
+                    </div>
+                    <div class="search-bell">
+                        <img src="./images/notifications.png" class="search-bell-image">
+                    </div>
+                </div>
+                <div class="content-wrapper">
+                    <div class="left-content">
+                        <div class="top-calendar">
+                            <span class="top-calendar-right">8 task completed out of 10</span>
+                            <div class="top-calendar-left">
+                                <span class="calendar-show">Show:</span>
+                                <span class="calendar-interval">This week</span>
+                                <img src="images/Polygon.png" class="triangle">
+                            </div>
+                        </div>
+                        <div class="progress-bar"></div>
+                        <div class="calendar-date-wrapper">
+                            <span class="calendar-date-text">23 December, Sunday</span>
+                        </div>
+                        <div class="calendar-wrapper">
+                            <div class="day-wrapper">
+                                <div class="weekday">Sun</div>
+                                <div class="date-selected">23</div>
+                            </div>
+                            <div class="day-wrapper">
+                                <div class="weekday">Mon</div>
+                                <div class="date">24</div>
+                            </div>
+                            <div class="day-wrapper">
+                                <div class="weekday">Tues</div>
+                                <div class="date">25</div>
+                            </div>
+                            <div class="day-wrapper">
+                                <div class="weekday">Wed</div>
+                                <div class="date">26</div>
+                            </div>
+                            <div class="day-wrapper">
+                                <div class="weekday">Thur</div>
+                                <div class="date">27</div>
+                            </div>
+                            <div class="day-wrapper">
+                                <div class="weekday">Fri</div>
+                                <div class="date">28</div>
+                            </div>
+                            <div class="day-wrapper">
+                                <div class="weekday">Sat</div>
+                                <div class="date">29</div>
+                            </div>
+                        </div>
+                        <div class="task-wrapper">
+                            <div class="task-top">
+                                <div class="task-title">
+                                    <h4 class="task-title-ellipsis">Send benefit review by Sunday</h4>
+                                </div>
+                                <div class="task-action">
+                                    <p class="task-action-text">Reminder</p>
+                                </div>
+                            </div>
+                            <div class="task-date">
+                                <span class="task-date-one">Due date:
+                                </span>
+                                <span class="task-date-two">December 23, 2018</span>
+                            </div>
+                            <div class="task-bottom">
+                                <div class="task-user-container">
+                                    <img class="task-user-image" src="./images/george.png">
+                                    <span class="task-user-name">George Fields</span>
+                                </div>
+                                <div class="task-button-wrapper">
+                                    <button class="green-button" type="button" onclick="alert('Completed!')">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-wrapper task-shadow">
+                            <img src="./images/pointer.png" class="pointy">
+                            <div class="task-top">
+                                <div class="task-title">
+                                    <h4 class="task-title-text">Invite to office meet-up</h4>
+                                </div>
+                                <div class="task-action">
+                                    <p class="task-action-text">Call</p>
+                                </div>
+                            </div>
+                            <div class="task-date">
+                                <span class="task-date-one">Due date:
+                                </span>
+                                <span class="task-date-two">December 23, 2018</span>
+                            </div>
+                            <div class="task-bottom">
+                                <div class="task-user-container">
+                                    <img class="task-user-image" src="./images/rebecca.png">
+                                    <span class="task-user-name">Rebecca Moore</span>
+                                </div>
+                                <div class="task-button-wrapper-2">
+                                    <div class="edit-function-buttons">
+                                        <div class="edit-button-wrap">
+                                            <img src="./images/edit.png" class="edit-image">
+                                        </div>
+                                        <div class="delete-button-wrap">
+                                            <img src="./images/delete.png" class="delete-image">
+                                        </div>
+                                    </div>
+                                    <div class="red-button-wrap">
+                                        <button class="red-button" type="button" onclick="alert('Completed!')">Ended</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task-wrapper">
+                            <div class="task-top">
+                                <div class="task-title">
+                                    <h4 class="task-title-text">Office meet-up</h4>
+                                </div>
+                                <div class="task-action">
+                                    <p class="task-action-text">Event</p>
+                                </div>
+                            </div>
+                            <div class="task-date">
+                                <span class="task-date-one">Due date:
+                                </span>
+                                <span class="task-date-two">December 23, 2018</span>
+                            </div>
+                            <div class="task-bottom">
+                                <div class="task-user-container">
+                                    <img class="task-user-image" src="./images/lindsey.png">
+                                    <span class="task-user-name">Lindsey Stroud</span>
+                                </div>
+                                <div class="task-button-wrapper">
+                                    <button class="green-button" type="button" onclick="alert('Completed!')">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="show-more">
+                            <span class="show-more-selection">Show more</span>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <div class="bar-graph">
+                            <div class="graph-title-wrapper">
+                            <div class="graph-title">
+                                <span class="graph-title-left">Deals</span>
+                                <div class="graph-title-right">
+                                    <span class="graph-show">Show:</span>
+                                    <span class="graph-interval">Monthly</span>
+                                    <div class="dropdown-triangle-image">
+                                        <img src="images/Polygon.png" class="triangle">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="closed-deals">
+                                <img src="images/ellipse.png" class="ellipse">
+                                <span class="legend-font">Closed deals</span>
+                            </div>
+                                <img src="images/deals_graphic.png" class="deals-graphic-image">
+                            
+                        </div>
+                        <div class="pie-chart">
+                            <div class=graph-title-wrapper>
+                            <div class="graph-title">
+                                <span class="graph-title-left">Tasks</span>
+                                <div class="graph-title-right">
+                                    <span class="graph-show">Show:</span>
+                                    <span class="graph-interval">This month</span>
+                                    <div class="dropdown-triangle-image">
+                                        <img src="images/Polygon.png" class="triangle">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="graph-image-wrapper">
+                                <img src="images/progcircle.png" class="tasks-graphic-image">
+                                <div class="legend-wrapper">
+                                    <div class="active-legend">
+                                        <img src="images/YellowEllipse.png" class="ellipse">
+                                        <span class="legend-font">Active</span>
+                                    </div>
+                                    <div class="complete-legend">
+                                        <img src="images/GreenEllipse.png" class="ellipse">
+                                        <span class="legend-font">Completed</span>
+                                    </div>
+                                    <div class="ended-legend">
+                                        <img src="images/RedEllipse.png" class="ellipse">
+                                        <span class="legend-font">Ended</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="./js/index.js"</script>
+        </body>
+</html></div></body></html></body></html></div></body></html>
